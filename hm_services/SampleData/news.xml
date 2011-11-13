@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?><newslist>
+    
+    <news>
+        <author>dietzhelene</author>
+        <subject>Ansprechpartnerinnen der Fakultät 10</subject>
+        <text>Liebe Studierende, bei Fragen wer-wann-wo (Dozenten-Termin-Räume)
+die die Fakultät 10 für unseren gemeinsamen Studiengang betreffen, wollen Sie sich bitte an die beiden Damen der Fakultät 10, Frau Oapschies und Frau Zeller wenden. 
+#
+Martina Lapschies, Raum: LO 208, Tel.: 089 1265-2715, 
+martina.lapschies@hm.edu
+#
+#Katja Zeller, Raum: LO 208, Tel.: 089 1265-2723,
+katja.zeller@hm.edu
+#
+Montag bis Donnerstag: 07:45 - 11:30 Uhr und 13:00 - 16:00 Uhr,
+#Freitag: 07:45 - 11:30 Uhr und 13:00 - 14:00 Uhr</text>
+        <select/>
+        <scope/>
+        <publish>2010-03-23</publish>
+        <expire>2011-12-31</expire>
+        <url/>
+        <id>ansprechpartnerinnenderfakultaet10</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>Bachelor WI SPOs 2005/2007: FWP-Fächer</subject>
+        <text>Ab dem WS 2010/11 sind alle für den
+Bachelor-Studiengang Wirtschaftsinformatik
+zugelassenen FWP-Fächer (aktuelle Liste der im
+WS 2010/11 angebotenen Fächer siehe Link) sowohl der Kategorie 
+FWP Wirtschaftsinformatik als auch der Kategorie
+FWP formale Konzepte der Wirtschaftsinformatik
+zugeordnet. Faktisch entfällt damit die Unterscheidung
+zwischen beiden Kategorien.</text>
+        <select>group</select>
+        <teacher>staudtmartin</teacher>
+        <group>ib</group>
+        <scope/>
+        <publish>2010-08-09</publish>
+        <expire>2012-07-31</expire>
+        <url>http://w3-mediapool.hm.edu/mediapool/media/fk07/fk07_lokal/studienangebot_3/studiengnge/dokumente_5/bawi/WI-WISE1011_B29-B36_V1.pdf</url>
+        <id>bachelorwispos20052007fwpfaecher</id>
+    </news>
+    <news>
+        <author>vogtchristian</author>
+        <subject>Broschüre zum Auslandsstudium</subject>
+        <text>Von der go-out-Initiative des Bundesministeriums für Bildung und Forschung und des DAAD (www.go-out.de) gibt es ein neues, sehr informatives Magazin zu den Themen Studium und Praktikum im Ausland. Die pdf-Version finden Sie auch unter dem folgenden Link:</text>
+        <select/>
+        <teacher>vogtchristian</teacher>
+        <scope/>
+        <publish>2011-04-28</publish>
+        <expire>2011-12-31</expire>
+        <url>http://w3-o.cs.hm.edu/~vogt/go-out-magazin.pdf</url>
+        <id>broschuerezumauslandsstudium</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>Datenbanksysteme II, 10.11.</subject>
+        <text>Aufgrund der Exkursion der Studiengruppe IF6 entfällt am Donnerstag, 10.11. um 13.30 Uhr die Vorlesung Datenbanksysteme II. Stattdessen wird für die restlichen Teilnehmer der Veranstaltung ein zusätzliches Praktikum um 13.30 Uhr in R2.008 durchgeführt.</text>
+        <select>group</select>
+        <teacher>staudtmartin</teacher>
+        <group>if</group>
+        <scope/>
+        <publish>2011-11-10</publish>
+        <expire>2011-11-17</expire>
+        <url/>
+        <id>datenbanksystemeii1011</id>
+    </news>
+    <news>
+        <author>moenckeulrich</author>
+        <subject>Datenschutz Mittwoch 16.11.2011 11.45-13.15</subject>
+        <text>Veranstaltung entfällt wegen dienstlichen Termins von Hr. Möncke #
+(Workshop Senat/Präsidium)</text>
+        <select/>
+        <teacher>moenckeulrich</teacher>
+        <scope/>
+        <publish>2011-11-12</publish>
+        <expire>2011-11-19</expire>
+        <url/>
+        <id>datenschutzmittwoch1611201111451315</id>
+    </news>
+    <news>
+        <author>pohlchristoph</author>
+        <subject>DOAG Konferenz 15 - 17.11 noch 4 freie Plätze</subject>
+        <text>Auch dieses Jahr fahren wir wieder auf die DOAG Jahreskonferenz mit über 400 Beiträgen zu Java, Datenbanken und IT-Sicherheit. Die Hochschule übernimmt dabei die Kosten der Fahrt und Unterbringung. Die DOAG übernimmt die Teilnahmskosten. Als Gegenleistung muss an ca. 30 Prozent der Veranstaltungszeit vor jedem Vortrag der Einlass kontrolliert werden. Während des Vortrags kann der Vortrag von den Studenten besucht werden. Die restliche Zeit können Vorträge besucht, das Buffet ausgetestet oder Firmenkontakte geknüpft werden.
+
+.Wir haben noch 4 Plätze frei
+.Wann: 15-17.11.2011 in Nürnberg
+.Wie: Eine Mail an christoph.pohl0@hm.edu bis Mittwoch 9.11 .
+
+Das Vortragsprogramm kann unter http://www.doag.org eingesehen werden, die Arbeitsplanung kann nach Vortragsinteressen der Studenten eingeteilt werden.</text>
+        <select/>
+        <teacher>pohlchristoph</teacher>
+        <group>ib</group>
+        <group>if</group>
+        <group>ig</group>
+        <group>in</group>
+        <scope/>
+        <publish>2011-11-07</publish>
+        <expire>2011-11-15</expire>
+        <url>http://www.doag.org</url>
+        <id>doagkonferenz151711noch4freieplaetze</id>
+    </news>
+    <news>
+        <author>rambausekmichaela</author>
+        <subject>Erstsemesterbegrüßung Votragsfolien vom 04.10.2011 sind online!!!</subject>
+        <text>Liebe Erstsemester und Erstsemester im Nachrückverfahren!
+
+Auf den Seiten der Fachschaft sind die Vortragsfolien der Erstsemesterbegrüßung online. Hier gibts wichtige Infos nochmal zum Nachlesen.</text>
+        <select/>
+        <scope/>
+        <publish>2011-10-10</publish>
+        <expire>2011-11-15</expire>
+        <url>http://fs.cs.hm.edu/~tmaier/ersti_praesentation.pdf</url>
+        <id>erstsemesterbegruessungvotragsfolienvom04102011sindonline</id>
+    </news>
+    <news>
+        <author>dietzhelene</author>
+        <subject>Fundsache: Studierendenausweis Florian N.</subject>
+        <text>Bitte im Sekretariat abholen.</text>
+        <select/>
+        <scope/>
+        <publish>2011-11-07</publish>
+        <expire>2011-11-14</expire>
+        <url/>
+        <id>fundsachestudierendenausweisfloriann</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>FWPs/Seminare Wirtschaftsinformatik</subject>
+        <text>Bitte beachten Sie: Seminare können *nicht* als FWP-Fach anerkannt
+werden. Das Seminarangebot ist auf die zwei erforderlichen
+Pflichtseminare abgestimmt, von denen jeweils eins im 4. und eins im 6. Semester gemäß Musterstudienplan zu absolvieren ist. Sollten Sie Seminarplätze belegt haben, obwohl Sie gar kein Seminar mehr benötigen, geben Sie diese bitte wieder frei!
+
+#FWPs die im Seminarstil ablaufen (d.h. Studienarbeit und Referat) können als Seminar anerkannt werden, falls 
+.der *Dozierende* das der
+Prüfungskommission mitteilt 
+.und Sie *nach* erfolgreichem Absolvieren (und *nach* der Notenbekanntgabe) formlos einen Antrag per email an die Prüfungskommission stellen.
+#
+Das Angebot an FWP-Fächern wird jeweils am Ende des vorhergehenden Semesters vorgestellt. Die aktuelle Liste finden Sie im Web (s.u.).
+Im ZPA sind in der Regel nicht alle FWPs eingetragen. Im Zweifelsfall nehmen Sie bitte direkt Kontakt mit den Dozierenden auf.
+#Prof.Dr.Martin Staudt</text>
+        <select>group</select>
+        <teacher>staudtmartin</teacher>
+        <group>ib</group>
+        <scope/>
+        <publish>2011-03-16</publish>
+        <expire>2012-07-31</expire>
+        <url>http://w3-mediapool.hm.edu/mediapool/media/fk07/fk07_lokal/studienangebot_3/studiengnge/dokumente_5/bawi/FWPs_Sommersemester_2011.pdf</url>
+        <id>fwpsseminarewirtschaftsinformatik</id>
+    </news>
+    <news>
+        <author>hofhansjoachim</author>
+        <subject>Hilfsmittel für Prüfung "Softwareentwicklung 2"</subject>
+        <text>Bitte beachten Sie, dass für die Prüfung "Softwareentwicklung 2" (Dozent Hof) nur folgende Hilfsmittel erlaubt sind: "1 Blatt DIN A4 mit beliebigem eigenem Text sowie mit Namen und Matrikelnummer versehen".</text>
+        <select/>
+        <teacher>hofhansjoachim</teacher>
+        <scope/>
+        <publish>2011-11-06</publish>
+        <expire>2012-02-10</expire>
+        <url/>
+        <id>hilfsmittelfuerpruefungsoftwareentwicklung2</id>
+    </news>
+    <news>
+        <author>petersgeorg</author>
+        <subject>Info Veranstaltung Master Wirtschaftsinformatik</subject>
+        <text>Info Veranstaltung Master Wirtschaftsinformatik: 
+#Donnerstag, 17. November 2011, 13:30-14:30, Raum R0.010. 
+#Für Studierende, die überlegen, den Master Wirtschaftinformatik in den nächsten zwei Jahren zu beginnen.</text>
+        <select/>
+        <teacher>petersgeorg</teacher>
+        <scope/>
+        <publish>2011-11-03</publish>
+        <expire>2011-11-18</expire>
+        <url/>
+        <id>infoveranstaltungmasterwirtschaftsinformatik</id>
+    </news>
+    <news>
+        <author>koehlerklaus</author>
+        <subject>Intensive Programme Secure Web Applications</subject>
+        <text>Interested in IT-Security? Then apply for the Erasmus Intensive Programme
+#*Secure WEB Applications: Best Practices for Protection &amp; Development*
+#(see http://www.cs.hm.edu/studienangebote/international/erasmus_ip)
+#72 Students from 6 European countries will learn to jointly develop secure web applications in small international groups.
+#*More information: Wednesday, 16th of November 2011, 17:00 in R003.016*
+#*Application deadline: Monday, 28th of November 2011, 15:00*</text>
+        <select/>
+        <teacher>koehlerklaus</teacher>
+        <scope/>
+        <publish>2011-11-10</publish>
+        <expire>2011-11-30</expire>
+        <url>http://w3-mediapool.hm.edu/mediapool/media/fk07/fk07_lokal/studienangebot_3/incoming_students/erasmus_ip/application/Student_Selection_Ann-_Nov11_for_Munich.pdf</url>
+        <id>intensiveprogrammesecurewebapplications</id>
+    </news>
+    <news>
+        <author>anlauffheidi</author>
+        <subject>IT-Systeme 1 Praktikum</subject>
+        <text>Das Praktikum zu IT-Systeme 1 bei Prof. Anlauff beginnt am Montag, den 7.11.11 um 11:45(TG 1) bzw. 15:15(TG 2) jeweils in R2.008.</text>
+        <select>group</select>
+        <teacher>anlauffheidi</teacher>
+        <group>if1a</group>
+        <scope/>
+        <publish>2011-11-05</publish>
+        <expire>2011-11-12</expire>
+        <url/>
+        <id>itsysteme1praktikum</id>
+    </news>
+    <news>
+        <author>orehekmartin</author>
+        <subject>IT Systeme 1, Praktikumstermin Do. 17.11. !!Betreuung!! fällt aus!</subject>
+        <text>Leider fällt aufgrund einer Dienstreise die Betreuung im Praktikumstermin am Do. 17.11. aus. 
+Es betrifft die Teilgruppe 1. von IF1C + IC1.
+Die Abgabe der Aufgabe 1.1. verlängert sich dadurch um eine Woche.
+Alle anderen Abgabetermine bleiben davon unberührt!
+
+Die Räumlichkeiten können in der regulären Praktikumszeit für die Weiterentwicklung der nachfolgenden Teilaufgaben genutzt werden!</text>
+        <select>group</select>
+        <teacher>orehekmartin</teacher>
+        <group>ic1</group>
+        <group>if1c</group>
+        <scope/>
+        <publish>2011-11-10</publish>
+        <expire>2011-11-18</expire>
+        <url/>
+        <id>itsysteme1praktikumstermindo1711betreuungfaelltaus</id>
+    </news>
+    <news>
+        <author>orehekmartin</author>
+        <subject>IT-Systeme I (Orehek): wichtige Infos</subject>
+        <text>Wichtige Informationen zur Vorlesung "IT-Systeme I":
+
+-&gt; Zu Beginn des Semester (bis ca. Anfang November) finden anstelle des Praktikums, Vorlesungen statt. Diese sind unabhängig von der Teilgruppeneinteilung des Praktikums für alle Studierenden am selben Termin.
+Diese Zusatzvorlesungen finden wie folgt statt:
+IF1B: anstelle des Praktikums der 1. Teilgruppe, für ALLE, 10:00-11:30
+IC1 + IF1C: Vorlesung anstelle des Praktikums der 2. Teilgruppe, für ALLE, 11:45-13:15
+
+-&gt; Start des Praktikums wird separat angekündigt.
+
+-&gt; Unter folgenden Adresse können Sie sich für den Kurs anmelden.
+Dort finden Sie dann nützliche Informationen wie auch die PDFs der
+Folien zur Vorlesung.
+https://moodle.hm.edu
+Password: ITS11_12
+
+-&gt; Das Buch zur Vorlesung ist:
+Anlauff, Böttcher, Ruckert: „Das MMIX-Buch“, Springer 2002,
+ISBN: 3-540-42408-3
+
+-&gt; Bitte achten Sie auf Hinweise zu Raumänderungen, es könnten sich
+kurzfristig Änderungen ergeben.
+
+Guten Start und viel Erfolg!</text>
+        <select>group</select>
+        <teacher>orehekmartin</teacher>
+        <group>ic1</group>
+        <group>if1b</group>
+        <group>if1c</group>
+        <scope/>
+        <publish>2011-10-13</publish>
+        <expire>2011-11-13</expire>
+        <url/>
+        <id>itsystemeiorehekwichtigeinfos</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Leistungsnachweis (Klausur) Analysis Eich-Soellner/Naumer am 39.11.11 um 18.35 in R 1.049</subject>
+        <text>Der Leistungsnachweis Analysis findet für die Gruppen von Profs.Drs. Eich-Soellner und Naumer am Mittwoch, den 30.11.11 um 18.35 in R 1.049 (blauer Zylinder) statt. Dauer: 60 min.</text>
+        <select/>
+        <teacher>eichsoellneredda</teacher>
+        <scope/>
+        <publish>2011-11-10</publish>
+        <expire>2011-11-30</expire>
+        <url/>
+        <id>leistungsnachweisklausuranalysiseichsoellnernaumeram391111um1835inr1049</id>
+    </news>
+    
+    <news>
+        <author>voglerthomas</author>
+        <subject>MSDNAA und Problem bei ZPA</subject>
+        <text>Hallo Zusammen,
+#
+# da leider meine "ich bin im Urlaub" Meldung bei meinen Email nicht funktioniert, hier die Meldung über das schwarze Brett.
+#Ich bin bis zumm *14.11* im Urlaub
+#
+# *MSNDAA* Anträge und Rückmeldungen bitte mit der *@hm.edu Adresse* versehen und an Herr Heigert senden. heigert@cs.hm.edu
+#
+# ZPA: Wiederholer von Veranstaltungen des 1. Semester erhalten fast keinen Zugang zu den entsprechenden Kursen im ZPA. Bitte melden Sie sich direkt beim den für Sie zusändigen Dozenten und bitten um Aufnahmen und Zuteilung eines Praktikumplatzes.
+# *Beachten Sie* als Studierender der Studiengänge Bachelor Informatik / Scientific Computing die feste Zuortnung wie Sie in der Email von Prof. Eich-Soellner "Studiengruppenzuordnung Wiederholer im Ws 11/12" vorgegeben ist.
+#
+# Gruß, Vogler</text>
+        <select/>
+        <scope/>
+        <publish>2011-10-25</publish>
+        <expire>2011-11-14</expire>
+        <url/>
+        <id>msdnaaundproblembeizpa</id>
+    </news>
+    <news>
+        <author>hofhansjoachim</author>
+        <subject>Nachteilsausgleich</subject>
+        <text>Am 16.11.2011 endet die Frist zur Beantragung von Nachteilsausgleich für Prüfungen. Den Nachteilsausgleich beantragen Sie beim Prüfungsamt. Alle Studierenden mit Nachteilsausgleich werden gebeten, sowohl dem Prüfungsplaner, Prof. Hof, als auch dem jeweiligen Dozenten eine Kopie des Bescheides zuzusenden, den sie vom Prüfungsamt erhalten haben - auch dann, wenn Sie bereits im letzten Semester eine Prüfungszeitverlängerung in Anspruch genommen haben. Notwendige Angaben: Prüfung, Prüfer, % Zeitverlängerung. 
+
+Gruß, Hans-Joachim Hof</text>
+        <select/>
+        <teacher>hofhansjoachim</teacher>
+        <scope/>
+        <publish>2011-11-03</publish>
+        <expire>2012-01-16</expire>
+        <url/>
+        <id>nachteilsausgleich</id>
+    </news>
+    <news>
+        <author>wischhoflars</author>
+        <subject>Netzwerke I (IF3A) Wischhof: Nachholtermin Vorlesung</subject>
+        <text>Wie in der Vorlesung heute besprochen findet am 14.11. ein Nachholtermin für die am 31.10. enfallene Vorlesung "Netzwerke I" der Gruppe IF3A statt. Leider müssen wir wegen der Rahmenbedingungen ihres Stundenplans auf einen Termin am späten Nachmittag ausweichen.
+
+Termin: 14.11., 17.00 Uhr, Raum R0.011</text>
+        <select>group</select>
+        <teacher>wischhoflars</teacher>
+        <group>if3a</group>
+        <scope/>
+        <publish>2011-11-07</publish>
+        <expire>2011-11-14</expire>
+        <url/>
+        <id>netzwerkeiif3awischhofnachholterminvorlesung</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Neue Allgemeine Prüfungsordnung (APO) der Hochschule</subject>
+        <text>Mit dem WS 11/12 tritt eine neue Allgemeine Prüfungsordnung der Hochsccule in Kraft, die zahlreiche Erleichterungen für Sie als Studierende mit sich bringt:
+.In Bachelor- und Masterstudiengängen können jetzt höchstens ~fünf~ (bisher: vier) Prüfungen zweimal wiederholt
+werden. Hierbei zählt, unabhängig von der jeweiligen Prüfungsform, jede in der einschlägigen
+Studien- und Prüfungsordnung ausgewiesene Prüfungsleistung als eine Prüfung
+.In Bachelorstudiengängen kann eine Prüfung ein ~drittes~ Mal
+wiederholt werden (bisher: keine dritten Wiederholungen zulässig), soweit nicht die Studien- und Prüfungsordnung des jeweiligen Bachelorstudienganges
+eine dritte Wiederholungsprüfung ausschließt. Die dritte Wiederholungsprüfung
+ist allerdings nur dann zulässig, wenn die/der Studierende bereits alle Module des Studienganges
+mit Ausnahme der Bachelorarbeit und maximal dreier weiterer Module bestanden hat.
+.Studiendauer: Bei Überschreitung der Regelstudienzeit um mehr als zwei Semester (Bachelor, also also am Ende des 9. Semesters) ist die Bachelor- oder
+Masterprüfung gemäß § 8 Abs. 3 RaPO ~erstmals~ nicht bestanden.
+(bisher: Bachelor: am Ende des 10. Semesters muss alles bestanden sein. Für Studienanfänger SS 07 und früher gilt eine andere Regelung, bitte informieren Sie sich im Originaltext)
+.</text>
+        <select/>
+        <teacher>eichsoellneredda</teacher>
+        <scope/>
+        <publish>2011-09-26</publish>
+        <expire>2012-09-25</expire>
+        <url>http://w3-mediapool.hm.edu/mediapool/media/dachmarke/dm_lokal/hauptabteilung2/pruefung_praktikum/dokumente_1/studienundprfungsordnungen/apo.pdf</url>
+        <id>neueallgemeinepruefungsordnungapoderhochschule</id>
+    </news>
+    <news>
+        <author>orehekmartin</author>
+        <subject>Offene Tutorenstellen für IT-Systeme I</subject>
+        <text>Es werden noch Tutoren für das ITS1 Praktikum an folgenden Terminen gesucht:
+Di. 11:45-13:15
+Mi. 08:15-09:45
+Mi. 11:45-13:15
+Mi. 15:15-16:45
+Do. 11:45-13:15</text>
+        <select/>
+        <teacher>orehekmartin</teacher>
+        <scope/>
+        <publish>2011-10-19</publish>
+        <expire>2012-01-15</expire>
+        <url/>
+        <id>offenetutorenstellenfueritsystemei</id>
+    </news>
+    <news>
+        <author>anlauffheidi</author>
+        <subject>Praktikum IT-Systeme 1 im WS 11/12</subject>
+        <text>Für das Praktikum werden wieder geduldige Tutoren gesucht.
+Termine: Mo 11:45 - 13:15 und 15:15 - 16:45 (Anlauff)
+ Di 11:45 - 13:15 (Orehek)
+ Mi 8:15 - 9:45 und 10:00 - 11:30 (Orehek)
+ Do 11:45 - 13:15 (Orehek)</text>
+        <select/>
+        <teacher>anlauffheidi</teacher>
+        <teacher>orehekmartin</teacher>
+        <scope/>
+        <publish>2011-07-29</publish>
+        <expire>2012-02-15</expire>
+        <url/>
+        <id>praktikumitsysteme1imws1112</id>
+    </news>
+    <news>
+        <author>pleierchristoph</author>
+        <subject>Praxisbegleitende Lehrveranstaltungen Informatik</subject>
+        <text>Bei der Prüfungsanmeldung bitte für IF 065 und IF 066 anmelden.</text>
+        <select>group</select>
+        <teacher>pleierchristoph</teacher>
+        <group>if</group>
+        <scope/>
+        <publish>2011-11-05</publish>
+        <expire>2011-11-12</expire>
+        <url/>
+        <id>praxisbegleitendelehrveranstaltungeninformatik</id>
+    </news>
+    <news>
+        <author>koestergerta</author>
+        <subject>Projektseminar Modellierung (Scientific Computing): 11.11.2011</subject>
+        <text>Sehr geehrte Studierende in meinem Projektseminar Modellierung,
+
+am 11.11.2011 kann ich wegen einer Dienstreise nicht am Scrum-Termin anwesend sein. Bitte "scrummen" Sie selbstständig.
+
+Mit freundlichen Grüßen
+Gerta Köster</text>
+        <select/>
+        <teacher>koestergerta</teacher>
+        <scope/>
+        <publish>2011-11-07</publish>
+        <expire>2011-11-12</expire>
+        <url/>
+        <id>projektseminarmodellierungscientificcomputing11112011</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Prüfungen im Bachelor Informatik und Scientific Computing</subject>
+        <text>*Identitätsfeststellung:* Für die Teilnahme an Prüfungen müssen sich die Studierenden mit dem Studierendenausweis (bzw. einer Immatrikulations- bescheinigung) UND einem AMTLICHEN Lichtbildausweis ausweisen. Für die Identitätsfeststellung durch die Prüfungsaufsichten muss das Gesicht der Teilnehmerinnen und Teilnehmer deutlich erkennbar sein. Ist dies nicht der Fall (z.B. bei Vollverschleierung), wird die Teilnahme an der Prüfung verweigert, es sein denn, der oder die betroffene Studierende stellt bis spätestens 21.11.2011 bei der zuständigen Prüfungskommission einen schriftlichen Antrag, aus dem die einzelnen zur Teilnahme vorgesehenen Prüfungen mit Angabe des Prüfungsfachs und des Prüfers hervorgehen und eine der den üblichen Regelungen, z.B. bei der Einreise in die Bundesrepublik Deutschland oder bei einer polizeilichen Kontrolle, entsprechende Prozedur zur Identitätsfeststellung direkt vor der jeweiligen Prüfung vorgeschlagen wird. Die Genehmigung des Antrages erfolgt schriftlich und führt insbesondere auch die genauen organisatorischen Auflagen für die Identitätsfeststellung auf.
+#Prüfungskommissionen Bachelor Informatik und Bachelor Scientific Computing</text>
+        <select/>
+        <teacher>eichsoellneredda</teacher>
+        <scope/>
+        <publish>2011-11-12</publish>
+        <expire>2012-02-14</expire>
+        <url/>
+        <id>pruefungenimbachelorinformatikundscientificcomputing</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>Prüfungen Wirtschaftsinformatik WS 11/12</subject>
+        <text>Liebe Studierende,
+
+bitte beachten Sie die folgenden Regelungen für
+die Teilnahme an Prüfungen in den Studiengängen Bachelor
+und Master Wirtschaftsinformatik im WS 11/12:
+
+.*Anmeldungspflicht*:
+
+ Eine Teilnahme ist nur nach vorheriger Anmeldung innerhalb der
+ offiziellen Anmeldezeit (2.-16.11) möglich.
+
+.*Zuordnung zu Prüfern*:
+
+ Alle Prüfungen sind bei der/dem Dozierenden abzulegen, die/der der
+ jeweiligen Studiengruppe für das entsprechende Fach zugeordnet ist.
+ Für die Wiederholungsprüfungen des 2., 4. und 6. Semesters sind die
+ Angehörigen der Studiengruppen IB3x, IB5x, IB7x ebenfalls an die 
+ entsprechende Prüfung für die Studiengruppe x gebunden, unabhängig
+ davon, ob es sich um einen Erstversuch oder einen Zweitversuch
+ handelt.
+
+.*Identitätsfeststellung*:
+
+ Für die Teilnahme an Prüfungen müssen sich die Studierenden
+ mit dem Studierendenausweis (bzw. einer Immatrikulations-
+ bescheinigung) UND einem *AMTLICHEN Lichtbildausweis* ausweisen.
+Für die Identitätsfeststellung durch die Prüfungsaufsichten muss das
+ *Gesicht* der Teilnehmerinnen und Teilnehmer *deutlich erkennbar* sein.
+ Ist dies nicht der Fall (z.B. bei Vollverschleierung), wird die Teilnahme
+ an der Prüfung verweigert,
+ es sein denn, der oder die betroffene Studierende stellt bis spätestens
+ 16.11.2011 bei der Prüfungskommission einen
+ *schriftlichen Antrag*, aus dem die einzelnen zur Teilnahme vorgesehenen
+ Prüfungen mit Angabe des Prüfungsfachs und des Prüfers hervorgehen und eine
+ der den üblichen Regelungen, z.B. bei der Einreise in die Bundesrepublik
+ Deutschland oder bei einer polizeilichen Kontrolle, entsprechende Prozedur zur
+ Identitätsfeststellung direkt vor der jeweiligen Prüfung vorgeschlagen wird.
+ Die Genehmigung des Antrages erfolgt schriftlich und führt insbesondere auch
+ die genauen organisatorischen Auflagen für die Identitätsfeststellung auf.
+.
+#
+Prüfungskommissionen Bachelor und Master Wirtschaftsinformatik</text>
+        <select>group</select>
+        <teacher>staudtmartin</teacher>
+        <group>ib</group>
+        <group>in</group>
+        <scope/>
+        <publish>2011-11-02</publish>
+        <expire>2012-02-10</expire>
+        <url/>
+        <id>pruefungenwirtschaftsinformatikws1112</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Prüfungsanmeldung bis einschl. 16. November</subject>
+        <text>Ab sofort und noch *bis 16. November* findet die *Prüfungsanmeldung* online unter
+http://w3-o.hm.edu/rz/pruefungsanmeldung/ statt.
+#Bitte beachten Sie, dass Sie sich für alle Prüfungen und Leistungsnachweise, die Sie schreiben wollen oder müssen, anmelden müssen. (Es kann also sein, dass Sie sich für mehr als eine Leistung in einem Fach anmelden müssen).
+#Bitte bewahren Sie auf jeden Fall eine *Kopie des Anmeldenachweises* bis zur Notenbekanntgabe auf, um Ihre Anmeldung im Zweifelsfall nachweisen zu können.
+
+
+#Für die Studiengänge IF und IC gilt darüberhinaus, dass alle Studierenden die Prüfungen/Leistungsnachweise bei dem Dozenten ihrer Studiengruppe absolvieren müssen. Für Wiederholer gilt darüberhinaus die in http://fi.cs.hm.edu/fi/rest/public/news/full#studiengruppenzuordnungwiederholerss11 Zuordnung unverändert.</text>
+        <select>group</select>
+        <teacher>eichsoellneredda</teacher>
+        <group>ic</group>
+        <group>if</group>
+        <scope/>
+        <publish>2011-11-02</publish>
+        <expire>2011-11-17</expire>
+        <url>http://w3-o.hm.edu/rz/pruefungsanmeldung/</url>
+        <id>pruefungsanmeldungbiseinschl16november</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>Prüfungshilfsmittelliste Wirtschaftsinformatik</subject>
+        <text>Die Prüfungshilfsmittelliste für die Wirtschaftsinformatik-
+Studiengänge (Bachelor/Master) im WS 11/12 ist online (siehe
+Link unten).</text>
+        <select/>
+        <teacher>staudtmartin</teacher>
+        <scope/>
+        <publish>2011-10-30</publish>
+        <expire>2012-02-08</expire>
+        <url>http://w3-o.cs.hm.edu/~staudt/PK_WI/PruefHMittel_V1_WS11_IB_IN.pdf</url>
+        <id>pruefungshilfsmittellistewirtschaftsinformatik</id>
+    </news>
+    <news>
+        <author>bungechristine</author>
+        <subject>sneep Herbsttagung 2011: Mehr bewegen! Partizipation als Weg zur Nachhaltigkeit 11. bis 13.11.2011</subject>
+        <text/>
+        <select/>
+        <scope/>
+        <publish>2011-10-31</publish>
+        <expire>2011-11-14</expire>
+        <url>http://www.hm.edu/allgemein/aktuelles/veranstaltungen/veranstaltung_detailseite_38912.de.html</url>
+        <id>sneepherbsttagung2011mehrbewegenpartizipationalswegzurnachhaltigkeit11bis13112011</id>
+    </news>
+    <news>
+        <author>richteringo</author>
+        <subject>Soziale Kompetenz: Bilder und Videos vom März 2011</subject>
+        <text>Alle Teilnehmer der Seminarwoche "Soziale Kompetenz" vom März diesen Jahres können sich bei Interesse die Bilder und Videos (16 GB!) in meinem Büro abholen. Bitte machen Sie dazu einen Termin per E-Mail (ingo.richter@hm.edu) mit mir aus.</text>
+        <select>group</select>
+        <teacher>richteringo</teacher>
+        <group>ig</group>
+        <group>ig1</group>
+        <group>ig1c</group>
+        <group>ig1e</group>
+        <group>ig1s</group>
+        <group>ig2</group>
+        <group>ig2c</group>
+        <group>in</group>
+        <group>in1</group>
+        <group>in2</group>
+        <group>in3</group>
+        <group>is</group>
+        <group>is1</group>
+        <group>is2</group>
+        <group>is3</group>
+        <scope/>
+        <publish>2011-11-11</publish>
+        <expire>2011-12-23</expire>
+        <url/>
+        <id>sozialekompetenzbilderundvideosvommaerz2011</id>
+    </news>
+    <news>
+        <author>hertlejochen</author>
+        <subject>Sprechstunde am 15.11. fällt aus</subject>
+        <text>Am 15.11. muss die Sprechstunde um 10:00 Uhr wegen eines wichtigen Termins entfallen. In dringenden Fällen vereinbaren Sie bitte per Email einen alternativen Termin, ansonsten findet die Sprechstunde wieder am 22.11. statt.</text>
+        <select/>
+        <teacher>hertlejochen</teacher>
+        <scope/>
+        <publish>2011-11-11</publish>
+        <expire>2011-11-16</expire>
+        <url/>
+        <id>sprechstundeam1511faelltaus</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Sprechstunde Prof. Dr. Eich-Soellner verlegt auf Di, 15.00</subject>
+        <text>Auf grund von Stundenplanänderungen wird die Sprechstunde von Prof.Dr. Eich-Soellner ab sofort und dauerhaft auf Di, 15.00 verlegt.</text>
+        <select/>
+        <teacher>eichsoellneredda</teacher>
+        <scope/>
+        <publish>2011-10-14</publish>
+        <expire>2012-01-20</expire>
+        <url/>
+        <id>sprechstundeprofdreichsoellnerverlegtaufdi1500</id>
+    </news>
+    <news>
+        <author>orehekmartin</author>
+        <subject>Sprechstunde Prof. Orehek verschoben</subject>
+        <text>Ab nächster Woche (16.11.) findet die Sprechstunde am Mi. 10:00 statt.</text>
+        <select>group</select>
+        <teacher>orehekmartin</teacher>
+        <group>ic1</group>
+        <group>if1</group>
+        <scope/>
+        <publish>2011-11-09</publish>
+        <expire>2011-11-16</expire>
+        <url/>
+        <id>sprechstundeproforehekverschoben</id>
+    </news>
+    <news>
+        <author>eichsoellneredda</author>
+        <subject>Studiengruppenzuordnung Wiederholer im Ws 11/12</subject>
+        <text>Für die Prüfungen im WS 11/12 werden Studierende mit ausstehenden Prüfungen des 1. Semesters folgendermaßen den Studiengruppen zugeordnet:
+
+.Alle Wiederholer IF mit den Anfangsbuchstaben A-H, sowie alle Wiederholer GO absolvieren die Prüfungen mit der Gruppe IF1A/ GO1
+(Ana: Naumer, LinAlg: Kellersch, ITS1: Anlauff, TI: Zugenm., SE1: Hammersch.)
+.Alle IF-Wiederholer mit Anfangsbuchstaben I-R absolvieren die Prüfungen mit der Gruppe IF1B (Ana: Eich-S., LinAlg: Ballh., ITS1: Orehek, TI: Zugenm., SE1: Köhler)
+.Alle IC-Wiederholer, sowie die IF-Wiederholer mit Anfangsbuchstaben S-Z absolvieren die Prüfungen mit der Studiengruppe IC1/IF1C ( Ana: Barth, LinAlg: Köster, ITS1: Orehek, TI: Vogt, SE1: Hammrsch.)
+.Alle regulären Studierenden des 1. Semesters sowie alle Studierenden des 3.Semesters müssen die Prüfungen in ihrer Gruppe absolvieren.
+.Für die Prüfungen des 2. Semseters gibt es nur jeweils einen Prüfer.
+.
+Diese Regelung gilt nicht nur für alle Prüfungen sondern auch für die zugehörigen Leistungsnachweise.
+#
+Eine Missachtung der Regelung führt zur Annulierung der Prüfung.
+#
+Ausnahmeregelungen auf Grund von Stundenplaninkompatibilitäten sind möglich. Bitte sprechen Sie dazu Ihre Prüfungskommissionsvorsitze(n) an.</text>
+        <select/>
+        <teacher>eichsoellneredda</teacher>
+        <scope/>
+        <publish>2011-10-03</publish>
+        <expire>2012-03-12</expire>
+        <url/>
+        <id>studiengruppenzuordnungwiederholerimws1112</id>
+    </news>
+    <news>
+        <author>abendrothjoerg</author>
+        <subject>SWE1 Zusatztutorium je Do 17 Uhr R1.009</subject>
+        <text>Ab diesen Do (10.11.2011) findet ab 17Uhr in R1.009 ein Zusatztutorium statt. Alle Java Neulinge und IBB Studenten mit Javafragen sind herzlichst eingeladen. Nutzen Sie die Chance mehr Programmiererfahrung in Anwesendheit unter Anleitung zu sammeln.</text>
+        <select>group</select>
+        <teacher>abendrothjoerg</teacher>
+        <group>ib1a</group>
+        <group>ib1b</group>
+        <group>ib1c</group>
+        <scope/>
+        <publish>2011-11-09</publish>
+        <expire>2011-12-16</expire>
+        <url/>
+        <id>swe1zusatztutoriumjedo17uhrr1009</id>
+    </news>
+    <news>
+        <author>zimmertorsten</author>
+        <subject>Tutorium zu Software Engineering I</subject>
+        <text>Ab Donnerstag, 3.11.2011, wird ein Tutorium zur Unterstützung
+der Erstellung der Studienarbeit angeboten. Das Tutorium findet
+donnerstags von 15:15 Uhr bis 16:45 Uhr in Raum R2.012 statt.</text>
+        <select>course</select>
+        <teacher>zimmertorsten</teacher>
+        <course>softwareengineeringiibib3a</course>
+        <course>softwareengineeringiibib3b</course>
+        <scope/>
+        <publish>2011-10-25</publish>
+        <expire>2011-11-15</expire>
+        <url/>
+        <id>tutoriumzusoftwareengineeringi</id>
+    </news>
+    <news>
+        <author>pleierchristoph</author>
+        <subject>Umfrage zum Thema Sicherheit beim Umgang mit Smartphones</subject>
+        <text>Hallo,
+
+#im Rahmen meiner Bachelorarbeit im Studiengang Wirtschaftsinformatik führe ich eine Umfrage zum Thema "Sicherheit beim Umgang mit Smartphones" durch. 
+
+#Diese Umfrage richtet sich an alle Smartphone-Nutzer! 
+
+#Ihr würdet mir wirklich einen großen Gefallen tun, wenn ihr an der Umfrage teilnehmt. 
+
+#Die Befragung findet anonym statt und dauert ca. 5 Minuten.
+
+#Link zur Umfrage: http://umfrage.voycer.de/umfrage?sid=58661
+
+#PS: Ich brauche DRINGEND noch ein Paar WEIBLICHE Teilnehmer bei meiner
+Umfrage. Männliche Teilnehmer dürfen natürlich weiterhin mitmachen :)
+
+#Vielen Dank und Schöne Grüße! 
+#Hoai Anh Lai</text>
+        <select/>
+        <teacher>pleierchristoph</teacher>
+        <scope/>
+        <publish>2011-11-07</publish>
+        <expire>2011-11-14</expire>
+        <url>http://umfrage.voycer.de/umfrage?sid=58661</url>
+        <id>umfragezumthemasicherheitbeimumgangmitsmartphones</id>
+    </news>
+    <news>
+        <author>staudtmartin</author>
+        <subject>Veranstaltungen der FK 10 im WS 2011/12</subject>
+        <text>Anfragen zu Terminen, Räumen und Beginn der Veranstaltungen der Fakultät 10 (Betriebswirtschaft) im WS 2011/12 für die Wirtschaftsinformatik-Studiengänge richten Sie bitte an das Sekretariat der FK 10.
+#
+Die Veranstaltungen sind *nicht* im Stundenplan der FK 7 enthalten.
+
+#Bitte beachten Sie ausserdem: alle Veranstaltungen der FK 10 finden (Montags und Dienstags) wieder am *Campus Pasing* statt.</text>
+        <select>group</select>
+        <teacher>staudtmartin</teacher>
+        <group>ib</group>
+        <group>in</group>
+        <scope/>
+        <publish>2011-02-24</publish>
+        <expire>2012-01-31</expire>
+        <url/>
+        <id>veranstaltungenderfk10imws201112</id>
+    </news>
+    
+    
+    <news>
+        <author>koehlerklaus</author>
+        <subject>Vorlesung Datenschutz und IT-Sicherheit II (Anteil Datenschutz II)</subject>
+        <text>Die Vorlesung von Dr. Beier findet in mehreren Blöcken in R1.007 statt:
+#Fr 18.11. 13:30-18:00
+#Fr 25.11. 13:30-18:00, Sa 26.11. 09:30-13:00
+#Fr 02.12. 13:30-18:00, Sa 03.12. 09:30-13:00
+#Fr 16.12. 13:30-18:00, Sa 17.12. 09:30-13:00</text>
+        <select>group</select>
+        <teacher>koehlerklaus</teacher>
+        <group>if</group>
+        <scope/>
+        <publish>2011-10-11</publish>
+        <expire>2011-12-18</expire>
+        <url/>
+        <id>vorlesungdatenschutzunditsicherheitiianteildatenschutzii</id>
+    </news>
+    <news>
+        <author>heigertjohannes</author>
+        <subject>Vortragsabend zu Social Media und IT-Security am Donnerstag 24.11.</subject>
+        <text>Eine spannende und unterhaltsame Veranstaltung mit aktuellen IT-Themen, hier einmal anders präsentiert: 
+.IT-Security mit Tobias Schrödel, IT-Sicherheitsexperte und Deutschlands erster Comedy-Hacker
+.Social Media, Herausforderung für Unternehmen, Chancen für IT-Profis mit Ossi Urchs - Internetguru, TV-Regisseur und Stratege .
+#Wann: Donnerstag, 24.11.2011 um 17:00 Uhr (Einlass ab 16:30 Uhr) 
+#Wo: R-Bau, R1.049 (blauer Hörsaal), Lothstraße 64 
+#Gesponsort von der Firma Ferchau Engineering, die danach auch für einen Imbiss sorgt!</text>
+        <select/>
+        <teacher>heigertjohannes</teacher>
+        <scope/>
+        <publish>2011-11-09</publish>
+        <expire>2011-11-25</expire>
+        <url>http://cs.hm.edu/aktuelles/veranstaltungen/veranstaltungdetail_17216.de.html</url>
+        <id>vortragsabendzusocialmediaunditsecurityamdonnerstag2411</id>
+    </news>
+    <news>
+        <author>petersgeorg</author>
+        <subject>Wirtschaftsinformatik Bachelor: Interne Abschlussarbeit</subject>
+        <text>Interne Abschlussarbeit (Bachelor Wirtschaftsinformatik). Themengebiet ganz grob: "Globale Wissensgesellschaft(en)". Beginn: sofort. Auskunft in der Sprechstunde.</text>
+        <select>group</select>
+        <teacher>petersgeorg</teacher>
+        <group>ib5a</group>
+        <group>ib5b</group>
+        <group>ib5c</group>
+        <group>ib6</group>
+        <group>ib6a</group>
+        <group>ib6b</group>
+        <group>ib6c</group>
+        <group>ib7a</group>
+        <group>ib7b</group>
+        <group>ib7c</group>
+        <scope/>
+        <publish>2011-10-11</publish>
+        <expire>2011-12-18</expire>
+        <url/>
+        <id>wirtschaftsinformatikbachelorinterneabschlussarbeit</id>
+    </news>
+</newslist>
