@@ -11,6 +11,6 @@
         <local:NewsViewModel Subject="design four" Authors="Nascetur pharetra placerat pulvinar" Text="Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum"/>
         <local:NewsViewModel Subject="design five" Authors="Sagittis senectus sociosqu suscipit" Text="Dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis"/>
         <local:NewsViewModel Subject="design six" Authors="Torquent ultrices vehicula volutpat" Text="Senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend"/>
-    </local:MainViewModel.Items>
+    </local:MainViewModel.News>
     
 </local:MainViewModel>

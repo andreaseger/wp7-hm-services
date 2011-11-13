@@ -6,22 +6,17 @@ namespace hm_services.Data
   [Table]
   public class Author
   {
-    [Column(IsPrimaryKey = true, IsDbGenerated = true, DbType = "INT NOT NULL Identity",
+    [Column(IsPrimaryKey = true, DbType = "NVARCHAR(64) NOT NULL Identity",
             CanBeNull = false, AutoSync = AutoSync.OnInsert)]
-    public int ID { get; set; }
+    public string Code { get; set; }
 
     [Column(DbType = "NVARCHAR(128) NOT NULL")]
-    public string url_code { get; set; }
+    public string LastName { get; set; }
 
     [Column(DbType = "NVARCHAR(128) NOT NULL")]
-    public string Name { get; set; }
+    public string FirstName { get; set; }
 
-    [Association(ThisKey = "ID", OtherKey = "AuthorID")]
-    public EntitySet<EntryAuthor> Entries { get; set; }
-
-    public Author()
-    {
-      Entries = new EntitySet<EntryAuthor>();
-    }
+    [Column(DbType = "NVARCHAR(128)")]
+    public string Title { get; set; }
   }
 }
