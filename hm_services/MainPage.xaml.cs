@@ -21,25 +21,31 @@ namespace hm_services
     {
       InitializeComponent();
 
+      DataContext = App.ViewModel;
+
       this.Loaded += new RoutedEventHandler(MainPage_Loaded);
     }
 
     // Load data for the ViewModel Items
     private void MainPage_Loaded(object sender, RoutedEventArgs e)
     {
+      this.NewsListBox.Visibility = Visibility.Visible;
+
+      App.ViewModel.Items.Clear();
+
+      App.ViewModel.GetNewsItems("");
+
+      this.NewsListBox.Focus();
+      /*
       if (!App.CurrentApp.DB.DatabaseExists())
       {
         App.CurrentApp.DB.CreateDatabase();
-        //TODO load new data from server
       }
       else
       {
-        DataLoadOptions options = new DataLoadOptions();
-        // eager loading of authors
-        options.LoadWith<Data.Entry>(c => c.Authors);
-        App.CurrentApp.DB.LoadOptions = options;
-        var news = App.CurrentApp.DB.News.ToList();
+        var authors = App.CurrentApp.DB.Authors.ToList();
       }
+      */
     }
   }
 }

@@ -1,94 +1,132 @@
 ﻿using System;
-using System.ComponentModel;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
+using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Ink;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
+using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using System.ComponentModel;
 using System.Collections.ObjectModel;
-
+using System.IO;
+using System.Xml.Linq;
+using Microsoft.Phone.Info;
 
 namespace hm_services
 {
   public class MainViewModel : INotifyPropertyChanged
   {
+    private readonly string _newsUrl = "http://fi.cs.hm.edu/fi/rest/public/news.xml";
+    private string _filter;
+    
     public MainViewModel()
     {
-      this.News = new ObservableCollection<NewsViewModel>();
+      this.Items = new ObservableCollection<ItemViewModel>();
     }
 
     /// <summary>
-    /// A collection for NewsViewModel objects.
+    /// A collection for ItemViewModel objects.
     /// </summary>
-    public ObservableCollection<NewsViewModel> News { get; private set; }
-
-    private string _sampleProperty = "Sample Runtime Property Value";
-    /// <summary>
-    /// Sample ViewModel property; this property is used in the view to display its value using a Binding
-    /// </summary>
-    /// <returns></returns>
-    public string SampleProperty
+    public ObservableCollection<ItemViewModel> Items { get; private set; }
+    
+    public void GetNewsItems(string filter)
     {
-      get
+      this.Items.Clear();
+      this._filter = filter;
+
+      // initialize a new WebRequest
+      HttpWebRequest newsrequest= (HttpWebRequest)WebRequest.Create(new Uri(_newsUrl));
+      
+      // set up the state object for the async request
+      NewsItemUpdateState newsItemState = new NewsItemUpdateState();
+      newsItemState.AsyncRequest = newsrequest;
+
+      // start the asynchronous request
+      newsrequest.BeginGetResponse(new AsyncCallback(HandleFirstResponseForTotal), newsItemState); // this is still main thread
+    }
+
+    /// <summary>
+    /// Handle the first response returned from the async request
+    /// </summary>
+    /// <param name="asyncResult"></param>
+    private void HandleFirstResponseForTotal(IAsyncResult asyncResult)  ///now this is background
+    {
+      // get the state information
+      NewsItemUpdateState newsItemState = (NewsItemUpdateState)asyncResult.AsyncState;
+      HttpWebRequest newsrequest = (HttpWebRequest)newsItemState.AsyncRequest;
+
+      // end the async request
+      newsItemState.AsyncResponse = (HttpWebResponse)newsrequest.EndGetResponse(asyncResult);
+
+      Stream streamResult;
+      ObservableCollection<ItemViewModel> newsItemList = new ObservableCollection<ItemViewModel>();
+
+      try
       {
-        return _sampleProperty;
-      }
-      set
-      {
-        if (value != _sampleProperty)
+        // get the stream containing the response from the async call
+        streamResult = newsItemState.AsyncResponse.GetResponseStream();
+
+        // load the XML
+        XElement xmlNewsItems = XElement.Load(streamResult);
+        var xmlCurrent = xmlNewsItems.Descendants("newslist");
+        //FIXME the xml parsing does not work...
+        foreach (XElement news in xmlCurrent.Elements("news"))
         {
-          _sampleProperty = value;
-          NotifyPropertyChanged("SampleProperty");
+          ItemViewModel temp = new ItemViewModel();
+          temp.Subject = news.Element("subject").Value;
+          temp.Text = news.Element("text").Value;
+          temp.Publish = DateTime.Parse(news.Element("publish").Value);
+          temp.Expire = DateTime.Parse(news.Element("expire").Value);
+          temp.TeacherCode = news.Element("teacher") != null ? news.Element("teacher").Value : null;
+          newsItemList.Add(temp);
+        }//background
+
+        int sleepcounter = 2;
+        int itemcounter = 0;
+        foreach (ItemViewModel item in newsItemList)
+        {
+          itemcounter++;
+          if (itemcounter % sleepcounter == 0)
+          {
+            System.Threading.Thread.Sleep(20);
+          }
+          var dummy = item;
+
+          Deployment.Current.Dispatcher.BeginInvoke(() =>
+          {
+            this.Items.Add(dummy);
+          });
         }
       }
+      catch (Exception)
+      {
+        return;
+        //TODO
+      }
+      long applicationCurrentMemoryUsage = (long)DeviceExtendedProperties.GetValue("ApplicationCurrentMemoryUsage");
     }
 
-    public bool IsDataLoaded
-    {
-      get;
-      private set;
-    }
 
-    /// <summary>
-    /// Creates and adds a few NewsViewModel objects into the News collection.
-    /// </summary>
-    public void LoadData()
-    {
-      // Sample data; replace with real data
-      this.News.Add(new NewsViewModel() { Subject = "runtime one", Authors = "Maecenas praesent accumsan bibendum", Text = "Facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis senectus sociosqu" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime two", Authors = "Dictumst eleifend facilisi faucibus", Text = "Suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime three", Authors = "Habitant inceptos interdum lobortis", Text = "Habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime four", Authors = "Nascetur pharetra placerat pulvinar", Text = "Ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime five", Authors = "Maecenas praesent accumsan bibendum", Text = "Maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime six", Authors = "Dictumst eleifend facilisi faucibus", Text = "Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime seven", Authors = "Habitant inceptos interdum lobortis", Text = "Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime eight", Authors = "Nascetur pharetra placerat pulvinar", Text = "Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime nine", Authors = "Maecenas praesent accumsan bibendum", Text = "Facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis senectus sociosqu" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime ten", Authors = "Dictumst eleifend facilisi faucibus", Text = "Suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime eleven", Authors = "Habitant inceptos interdum lobortis", Text = "Habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime twelve", Authors = "Nascetur pharetra placerat pulvinar", Text = "Ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime thirteen", Authors = "Maecenas praesent accumsan bibendum", Text = "Maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime fourteen", Authors = "Dictumst eleifend facilisi faucibus", Text = "Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime fifteen", Authors = "Habitant inceptos interdum lobortis", Text = "Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat" });
-      this.News.Add(new NewsViewModel() { Subject = "runtime sixteen", Authors = "Nascetur pharetra placerat pulvinar", Text = "Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum" });
-
-      this.IsDataLoaded = true;
-    }
-
+    #region INotifyPropertyChanged
     public event PropertyChangedEventHandler PropertyChanged;
     private void NotifyPropertyChanged(String propertyName)
     {
-      PropertyChangedEventHandler handler = PropertyChanged;
-      if (null != handler)
+      if (null != PropertyChanged)
       {
-        handler(this, new PropertyChangedEventArgs(propertyName));
+        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
       }
+    }
+    #endregion
+
+    /// <summary>
+    /// State information for our NewsItemUpdateState async call
+    /// </summary>
+    public class NewsItemUpdateState
+    {
+      public HttpWebRequest AsyncRequest { get; set; }
+      public HttpWebResponse AsyncResponse { get; set; }
     }
   }
 }

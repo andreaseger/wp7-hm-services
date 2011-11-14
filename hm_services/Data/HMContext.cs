@@ -6,8 +6,6 @@ namespace hm_services.Data
   {
     public HMContext() : base("isostore:/hm_services.sdf") { }
 
-    public Table<Entry> News;
-    public Table<EntryAuthor> EntryAuthors;
     public Table<Author> Authors;
   }
 }
