@@ -32,7 +32,6 @@ namespace hm_services
       this.NewsListBox.Visibility = Visibility.Visible;
 
       App.ViewModel.Items.Clear();
-
       App.ViewModel.GetNewsItems("");
 
       this.NewsListBox.Focus();

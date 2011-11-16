@@ -1,0 +1,17 @@
+﻿<local:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:hm_services">
+
+    <local:MainViewModel.Items>
+        <local:ItemViewModel TeacherCode="Prof. Dr. Hans-Joachim Hof" Subject="Verteilte Systeme: Übung am 17.11.2011 für IN fällt aus" Text="Die Übung zum Fach Verteilte Systeme fällt am Donnerstag, den 17.11.2011, aus." />
+        <local:ItemViewModel TeacherCode="Prof. Dr. Edda Eich-Soellner" Subject="Datenkommunikation: Vorlesung am 17.11.2011 für IB3A fällt aus" Text="Die Vorlesung Datenkommunikation für IB3A fällt am 17.11.2011 aus dienstlichen Gründen aus, die Übungen finden aber statt." />
+        <local:ItemViewModel TeacherCode="Prof. Dr.-Ing. Martin Orehek" Subject="Nachteilsausgleich" Text="Am 16.11.2011 endet die Frist zur Beantragung von Nachteilsausgleich für Prüfungen. Den Nachteilsausgleich beantragen Sie beim Prüfungsamt. Alle Studierenden mit Nachteilsausgleich werden gebeten, sowohl dem Prüfungsplaner, Prof. Hof, als auch dem jeweiligen Dozenten eine Kopie des Bescheides zuzusenden, den sie vom Prüfungsamt erhalten haben - auch dann, wenn Sie bereits im letzten Semester eine Prüfungszeitverlängerung in Anspruch genommen haben. Notwendige Angaben: Prüfung, Prüfer, % Zeitverlängerung." />
+        <local:ItemViewModel TeacherCode="Prof. Dr. Johannes Heigert" Subject="Vortragsabend zu Social Media und IT-Security am Donnerstag 24.11." Text="Eine spannende und unterhaltsame Veranstaltung mit aktuellen IT-Themen, hier einmal anders präsentiert: 
+ IT-Security mit Tobias Schrödel, IT-Sicherheitsexperte und Deutschlands erster Comedy-Hacker
+ Social Media, Herausforderung für Unternehmen, Chancen für IT-Profis mit Ossi Urchs - Internetguru, TV-Regisseur und Stratege .
+ Wann: Donnerstag, 24.11.2011 um 17:00 Uhr (Einlass ab 16:30 Uhr) 
+ Wo: R-Bau, R1.049 (blauer Hörsaal), Lothstraße 64 
+ Gesponsort von der Firma Ferchau Engineering, die danach auch für einen Imbiss sorgt!" />
+    </local:MainViewModel.Items>
+</local:MainViewModel>

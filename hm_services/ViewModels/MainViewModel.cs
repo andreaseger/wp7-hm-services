@@ -12,6 +12,7 @@ using System.ComponentModel;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Xml.Linq;
+using System.Linq;
 using Microsoft.Phone.Info;
 
 namespace hm_services
@@ -69,23 +70,21 @@ namespace hm_services
         streamResult = newsItemState.AsyncResponse.GetResponseStream();
 
         // load the XML
-        XElement xmlNewsItems = XElement.Load(streamResult);
-        var xmlCurrent = xmlNewsItems.Descendants("newslist");
-        //FIXME the xml parsing does not work...
-        foreach (XElement news in xmlCurrent.Elements("news"))
-        {
-          ItemViewModel temp = new ItemViewModel();
-          temp.Subject = news.Element("subject").Value;
-          temp.Text = news.Element("text").Value;
-          temp.Publish = DateTime.Parse(news.Element("publish").Value);
-          temp.Expire = DateTime.Parse(news.Element("expire").Value);
-          temp.TeacherCode = news.Element("teacher") != null ? news.Element("teacher").Value : null;
-          newsItemList.Add(temp);
-        }//background
+        XDocument xmlNews = XDocument.Load(streamResult);
+
+        var tmp = from news in xmlNews.Root.Elements("news")
+                  select new ItemViewModel
+                  {
+                    Subject = news.Element("subject").Value,
+                    Text = news.Element("text").Value,
+                    Publish = DateTime.Parse(news.Element("publish").Value),
+                    Expire = DateTime.Parse(news.Element("expire").Value),
+                    TeacherCode = news.Element("teacher") != null ? news.Element("teacher").Value : null
+                  };
 
         int sleepcounter = 2;
         int itemcounter = 0;
-        foreach (ItemViewModel item in newsItemList)
+        foreach (ItemViewModel item in tmp)
         {
           itemcounter++;
           if (itemcounter % sleepcounter == 0)
